@@ -4,6 +4,4 @@
 
 3. setar em app.module.ts
 
-imports: [TypeOrmModule.forRoot({
-    
-})]
+imports: [TypeOrmModule.forRoot(ormconfig.ts)]
